@@ -1,0 +1,21 @@
+# Специфичные файлы для Mac (поскольку у вас MacBook)
+.DS_Store
+
+# Jupyter Notebook (чекпоинты и автосохранения)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Виртуальные окружения Python (все популярные варианты)
+venv/
+.venv/
+env/
+.env/
+
+# Кэш компиляции Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи и временные файлы
+*.log
