@@ -1,0 +1,422 @@
+﻿Feature_set,Model,Feature,Feature_readable,Importance,Relative_importance,Signed_coefficient,Importance_type,Rank
+Stoichiometry,CatBoost,required_physical__magnetic_field_T,"Magnetic field, μ₀H (T)",49.82919338429183,0.49829193384291826,,model_feature_importance,1
+Stoichiometry,CatBoost,required_physical__crystallite_size_nm,"Crystallite size, Dcryst (nm)",13.642122525070926,0.13642122525070927,,model_feature_importance,2
+Stoichiometry,CatBoost,chemical__comp_La,Stoichiometric coefficient of La (O = 3),8.125312809312454,0.08125312809312454,,model_feature_importance,3
+Stoichiometry,CatBoost,chemical__comp_Mn,Stoichiometric coefficient of Mn (O = 3),7.390399489577636,0.07390399489577636,,model_feature_importance,4
+Stoichiometry,CatBoost,chemical__comp_Sr,Stoichiometric coefficient of Sr (O = 3),5.976651674283853,0.05976651674283853,,model_feature_importance,5
+Stoichiometry,CatBoost,chemical__comp_Ca,Stoichiometric coefficient of Ca (O = 3),5.383759263102098,0.053837592631020975,,model_feature_importance,6
+Stoichiometry,CatBoost,chemical__comp_Ba,Stoichiometric coefficient of Ba (O = 3),3.296120050729105,0.03296120050729105,,model_feature_importance,7
+Stoichiometry,CatBoost,chemical__comp_Pr,Stoichiometric coefficient of Pr (O = 3),2.1196100283417563,0.021196100283417563,,model_feature_importance,8
+Stoichiometry,CatBoost,chemical__comp_Dy,Stoichiometric coefficient of Dy (O = 3),1.1118243726179735,0.011118243726179734,,model_feature_importance,9
+Stoichiometry,CatBoost,chemical__comp_Bi,Stoichiometric coefficient of Bi (O = 3),0.7025047315474636,0.007025047315474636,,model_feature_importance,10
+Stoichiometry,CatBoost,chemical__comp_Na,Stoichiometric coefficient of Na (O = 3),0.6616707111186209,0.006616707111186209,,model_feature_importance,11
+Stoichiometry,CatBoost,chemical__comp_Eu,Stoichiometric coefficient of Eu (O = 3),0.648082625540041,0.00648082625540041,,model_feature_importance,12
+Stoichiometry,CatBoost,chemical__comp_Ni,Stoichiometric coefficient of Ni (O = 3),0.4106803971107285,0.004106803971107285,,model_feature_importance,13
+Stoichiometry,CatBoost,chemical__comp_K,Stoichiometric coefficient of K (O = 3),0.3822662278993634,0.003822662278993634,,model_feature_importance,14
+Stoichiometry,CatBoost,chemical__comp_Nd,Stoichiometric coefficient of Nd (O = 3),0.20936656290219988,0.0020936656290219987,,model_feature_importance,15
+Stoichiometry,CatBoost,chemical__comp_Sm,Stoichiometric coefficient of Sm (O = 3),0.06890535205195757,0.0006890535205195757,,model_feature_importance,16
+Stoichiometry,CatBoost,chemical__comp_Co,Stoichiometric coefficient of Co (O = 3),0.041529794501987065,0.00041529794501987064,,model_feature_importance,17
+XenonPy,CatBoost,required_physical__magnetic_field_T,"Magnetic field, μ₀H (T)",43.31363794055561,0.43313637940555605,,model_feature_importance,1
+XenonPy,CatBoost,required_physical__crystallite_size_nm,"Crystallite size, Dcryst (nm)",5.506744833536782,0.055067448335367815,,model_feature_importance,2
+XenonPy,CatBoost,chemical__xenonpy_variance__var:fusion_enthalpy,Composition-weighted variance: enthalpy of fusion,1.308619617860732,0.01308619617860732,,model_feature_importance,3
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:gs_energy,Stoichiometric weighted sum: ground-state DFT energy per atom,1.2784273122556125,0.012784273122556122,,model_feature_importance,4
+XenonPy,CatBoost,chemical__xenonpy_average__ave:gs_energy,Composition-weighted mean: ground-state DFT energy per atom,1.250721953737665,0.012507219537376648,,model_feature_importance,5
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:fusion_enthalpy,Stoichiometric weighted sum: enthalpy of fusion,1.1515965781025086,0.011515965781025084,,model_feature_importance,6
+XenonPy,CatBoost,chemical__xenonpy_variance__var:density,Composition-weighted variance: density at 295 K,1.0550463828302232,0.01055046382830223,,model_feature_importance,7
+XenonPy,CatBoost,chemical__xenonpy_variance__var:electron_affinity,Composition-weighted variance: electron affinity,0.9752552937765266,0.009752552937765266,,model_feature_importance,8
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:lattice_constant,Minimum constituent-element: lattice constant,0.9590128195509848,0.009590128195509848,,model_feature_importance,9
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:melting_point,Stoichiometric weighted sum: melting temperature,0.9271394969318567,0.009271394969318565,,model_feature_importance,10
+XenonPy,CatBoost,chemical__xenonpy_variance__var:hhi_p,Composition-weighted variance: HHI of elemental production,0.9071846509523863,0.009071846509523862,,model_feature_importance,11
+XenonPy,CatBoost,chemical__xenonpy_variance__var:num_unfilled,Composition-weighted variance: number of unfilled valence states,0.847189729246453,0.008471897292464529,,model_feature_importance,12
+XenonPy,CatBoost,chemical__xenonpy_average__ave:melting_point,Composition-weighted mean: melting temperature,0.8045996143418871,0.00804599614341887,,model_feature_importance,13
+XenonPy,CatBoost,chemical__xenonpy_average__ave:bulk_modulus,Composition-weighted mean: bulk modulus,0.7498409512140187,0.007498409512140186,,model_feature_importance,14
+XenonPy,CatBoost,chemical__xenonpy_variance__var:thermal_conductivity,Composition-weighted variance: thermal conductivity at 25 °C,0.735210371078789,0.007352103710787888,,model_feature_importance,15
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:en_pauling,Stoichiometric weighted sum: electronegativity (Pauling),0.7240573769300899,0.0072405737693008974,,model_feature_importance,16
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:num_d_valence,Stoichiometric weighted sum: number of d valence electrons,0.7203677255739855,0.007203677255739854,,model_feature_importance,17
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:evaporation_heat,Stoichiometric weighted sum: enthalpy of evaporation,0.6811503455839808,0.006811503455839807,,model_feature_importance,18
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:hhi_p,Stoichiometric weighted sum: HHI of elemental production,0.6736262100860687,0.006736262100860686,,model_feature_importance,19
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:mendeleev_number,Stoichiometric weighted sum: Mendeleev number,0.6683386031616851,0.00668338603161685,,model_feature_importance,20
+XenonPy,CatBoost,chemical__xenonpy_average__ave:en_allen,Composition-weighted mean: electronegativity (Allen),0.6548650863667452,0.006548650863667451,,model_feature_importance,21
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:num_f_unfilled,Stoichiometric weighted sum: number of unfilled f states,0.6464291338055569,0.006464291338055568,,model_feature_importance,22
+XenonPy,CatBoost,chemical__xenonpy_average__ave:fusion_enthalpy,Composition-weighted mean: enthalpy of fusion,0.6435945828917559,0.006435945828917558,,model_feature_importance,23
+XenonPy,CatBoost,chemical__xenonpy_average__ave:mendeleev_number,Composition-weighted mean: Mendeleev number,0.6254847882241908,0.006254847882241907,,model_feature_importance,24
+XenonPy,CatBoost,chemical__xenonpy_variance__var:sound_velocity,Composition-weighted variance: speed of sound,0.6183549044673095,0.006183549044673093,,model_feature_importance,25
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:num_f_unfilled,Maximum constituent-element: number of unfilled f states,0.5867543977761728,0.005867543977761727,,model_feature_importance,26
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:bulk_modulus,Stoichiometric weighted sum: bulk modulus,0.5778318842934695,0.0057783188429346944,,model_feature_importance,27
+XenonPy,CatBoost,chemical__xenonpy_average__ave:density,Composition-weighted mean: density at 295 K,0.577303571017775,0.005773035710177749,,model_feature_importance,28
+XenonPy,CatBoost,chemical__xenonpy_average__ave:heat_capacity_mass,Composition-weighted mean: mass-specific heat capacity,0.5607942772086689,0.005607942772086688,,model_feature_importance,29
+XenonPy,CatBoost,chemical__xenonpy_average__ave:num_d_valence,Composition-weighted mean: number of d valence electrons,0.5476389615191445,0.005476389615191444,,model_feature_importance,30
+XenonPy,CatBoost,chemical__xenonpy_variance__var:atomic_number,Composition-weighted variance: atomic number,0.5436720681687824,0.005436720681687823,,model_feature_importance,31
+XenonPy,CatBoost,chemical__xenonpy_variance__var:atomic_weight,Composition-weighted variance: atomic weight,0.5401042032136951,0.00540104203213695,,model_feature_importance,32
+XenonPy,CatBoost,chemical__xenonpy_variance__var:en_allen,Composition-weighted variance: electronegativity (Allen),0.5051928695419773,0.005051928695419772,,model_feature_importance,33
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:electron_affinity,Stoichiometric weighted sum: electron affinity,0.4998667615397269,0.004998667615397269,,model_feature_importance,34
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:en_ghosh,Stoichiometric weighted sum: electronegativity (Ghosh),0.49389098172953805,0.00493890981729538,,model_feature_importance,35
+XenonPy,CatBoost,chemical__xenonpy_variance__var:boiling_point,Composition-weighted variance: boiling temperature,0.4828300353596688,0.004828300353596687,,model_feature_importance,36
+XenonPy,CatBoost,chemical__xenonpy_variance__var:bulk_modulus,Composition-weighted variance: bulk modulus,0.47433792591554713,0.00474337925915547,,model_feature_importance,37
+XenonPy,CatBoost,chemical__xenonpy_variance__var:covalent_radius_pyykko_double,Composition-weighted variance: double-bond covalent radius (Pyykkö),0.44737936600296413,0.0044737936600296405,,model_feature_importance,38
+XenonPy,CatBoost,chemical__xenonpy_variance__var:en_pauling,Composition-weighted variance: electronegativity (Pauling),0.445695792787221,0.004456957927872209,,model_feature_importance,39
+XenonPy,CatBoost,chemical__xenonpy_variance__var:heat_capacity_mass,Composition-weighted variance: mass-specific heat capacity,0.42626888671802565,0.004262688867180256,,model_feature_importance,40
+XenonPy,CatBoost,chemical__xenonpy_average__ave:sound_velocity,Composition-weighted mean: speed of sound,0.42294850230637143,0.004229485023063714,,model_feature_importance,41
+XenonPy,CatBoost,chemical__xenonpy_average__ave:thermal_conductivity,Composition-weighted mean: thermal conductivity at 25 °C,0.417647118104812,0.004176471181048119,,model_feature_importance,42
+XenonPy,CatBoost,chemical__xenonpy_average__ave:boiling_point,Composition-weighted mean: boiling temperature,0.40067278219260044,0.004006727821926004,,model_feature_importance,43
+XenonPy,CatBoost,chemical__xenonpy_average__ave:atomic_weight,Composition-weighted mean: atomic weight,0.3949447191868239,0.003949447191868238,,model_feature_importance,44
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:atomic_volume,Minimum constituent-element: atomic volume,0.39305027764120093,0.003930502776412009,,model_feature_importance,45
+XenonPy,CatBoost,chemical__xenonpy_average__ave:en_ghosh,Composition-weighted mean: electronegativity (Ghosh),0.3925925876975588,0.003925925876975587,,model_feature_importance,46
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:electron_negativity,Stoichiometric weighted sum: electronegativity,0.3858571105435683,0.0038585711054356826,,model_feature_importance,47
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:bulk_modulus,Maximum constituent-element: bulk modulus,0.37883041332596035,0.0037883041332596027,,model_feature_importance,48
+XenonPy,CatBoost,chemical__xenonpy_variance__var:c6_gb,Composition-weighted variance: C₆ dispersion coefficient (GB),0.3678594977194354,0.003678594977194353,,model_feature_importance,49
+XenonPy,CatBoost,chemical__xenonpy_average__ave:dipole_polarizability,Composition-weighted mean: dipole polarizability,0.3625990158571142,0.0036259901585711414,,model_feature_importance,50
+XenonPy,CatBoost,chemical__xenonpy_variance__var:en_ghosh,Composition-weighted variance: electronegativity (Ghosh),0.3520720311072937,0.0035207203110729363,,model_feature_importance,51
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:thermal_conductivity,Stoichiometric weighted sum: thermal conductivity at 25 °C,0.3459297079663812,0.003459297079663811,,model_feature_importance,52
+XenonPy,CatBoost,chemical__xenonpy_average__ave:heat_capacity_molar,Composition-weighted mean: molar heat capacity,0.34566654731064644,0.003456665473106464,,model_feature_importance,53
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:first_ion_en,Minimum constituent-element: first ionization energy,0.3240619239195757,0.0032406192391957567,,model_feature_importance,54
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:atomic_radius,Minimum constituent-element: atomic radius,0.32334032698805015,0.003233403269880501,,model_feature_importance,55
+XenonPy,CatBoost,chemical__xenonpy_average__ave:hhi_p,Composition-weighted mean: HHI of elemental production,0.3226556208788458,0.0032265562087884577,,model_feature_importance,56
+XenonPy,CatBoost,chemical__xenonpy_variance__var:covalent_radius_pyykko,Composition-weighted variance: single-bond covalent radius (Pyykkö),0.30775388943873594,0.0030775388943873588,,model_feature_importance,57
+XenonPy,CatBoost,chemical__xenonpy_variance__var:specific_heat,Composition-weighted variance: specific heat at 20 °C,0.29753395665043,0.0029753395665042992,,model_feature_importance,58
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:vdw_radius_mm3,Stoichiometric weighted sum: van der Waals radius (MM3),0.2911571979113465,0.0029115719791134643,,model_feature_importance,59
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:vdw_radius_alvarez,Stoichiometric weighted sum: van der Waals radius (Alvarez),0.27824800695277957,0.0027824800695277953,,model_feature_importance,60
+XenonPy,CatBoost,chemical__xenonpy_variance__var:gs_energy,Composition-weighted variance: ground-state DFT energy per atom,0.2735160999943082,0.002735160999943082,,model_feature_importance,61
+XenonPy,CatBoost,chemical__xenonpy_variance__var:molar_volume,Composition-weighted variance: molar volume,0.27047615905563094,0.002704761590556309,,model_feature_importance,62
+XenonPy,CatBoost,chemical__xenonpy_variance__var:lattice_constant,Composition-weighted variance: lattice constant,0.2702241971414656,0.002702241971414656,,model_feature_importance,63
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:num_unfilled,Stoichiometric weighted sum: number of unfilled valence states,0.26645816042434667,0.002664581604243466,,model_feature_importance,64
+XenonPy,CatBoost,chemical__xenonpy_average__ave:gs_mag_moment,Composition-weighted mean: ground-state DFT magnetic moment,0.2603770612237193,0.0026037706122371924,,model_feature_importance,65
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:fusion_enthalpy,Maximum constituent-element: enthalpy of fusion,0.2590760168826839,0.0025907601688268385,,model_feature_importance,66
+XenonPy,CatBoost,chemical__xenonpy_variance__var:atomic_radius_rahm,Composition-weighted variance: atomic radius (Rahm),0.25901649613850114,0.002590164961385011,,model_feature_importance,67
+XenonPy,CatBoost,chemical__xenonpy_variance__var:covalent_radius_cordero,Composition-weighted variance: covalent radius (Cordero),0.25418793615225255,0.002541879361522525,,model_feature_importance,68
+XenonPy,CatBoost,chemical__xenonpy_average__ave:num_unfilled,Composition-weighted mean: number of unfilled valence states,0.25056391118730187,0.0025056391118730183,,model_feature_importance,69
+XenonPy,CatBoost,chemical__xenonpy_average__ave:vdw_radius_mm3,Composition-weighted mean: van der Waals radius (MM3),0.25036802493139815,0.0025036802493139812,,model_feature_importance,70
+XenonPy,CatBoost,chemical__xenonpy_average__ave:period,Composition-weighted mean: period number,0.24993828179611874,0.002499382817961187,,model_feature_importance,71
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:heat_capacity_molar,Stoichiometric weighted sum: molar heat capacity,0.2492187962432607,0.0024921879624326066,,model_feature_importance,72
+XenonPy,CatBoost,chemical__xenonpy_variance__var:heat_capacity_molar,Composition-weighted variance: molar heat capacity,0.2479538740483034,0.0024795387404830337,,model_feature_importance,73
+XenonPy,CatBoost,chemical__xenonpy_average__ave:vdw_radius_uff,Composition-weighted mean: van der Waals radius (UFF),0.2472006846879739,0.0024720068468797388,,model_feature_importance,74
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:num_f_valence,Stoichiometric weighted sum: number of f valence electrons,0.24405719610451815,0.0024405719610451813,,model_feature_importance,75
+XenonPy,CatBoost,chemical__xenonpy_variance__var:heat_of_formation,Composition-weighted variance: enthalpy of formation,0.24296181521420074,0.002429618152142007,,model_feature_importance,76
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:hhi_r,Stoichiometric weighted sum: HHI of elemental reserves,0.23622961456095376,0.0023622961456095373,,model_feature_importance,77
+XenonPy,CatBoost,chemical__xenonpy_average__ave:gs_est_bcc_latcnt,Composition-weighted mean: estimated bcc lattice parameter,0.23373593302192108,0.0023373593302192107,,model_feature_importance,78
+XenonPy,CatBoost,chemical__xenonpy_average__ave:lattice_constant,Composition-weighted mean: lattice constant,0.2240916516582388,0.002240916516582388,,model_feature_importance,79
+XenonPy,CatBoost,chemical__xenonpy_average__ave:Polarizability,Composition-weighted mean: polarizability,0.22406035581018438,0.0022406035581018437,,model_feature_importance,80
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:heat_capacity_molar,Minimum constituent-element: molar heat capacity,0.22143926009060663,0.002214392600906066,,model_feature_importance,81
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:en_allen,Stoichiometric weighted sum: electronegativity (Allen),0.22004280860017048,0.0022004280860017044,,model_feature_importance,82
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:covalent_radius_pyykko,Stoichiometric weighted sum: single-bond covalent radius (Pyykkö),0.21957785658897802,0.0021957785658897797,,model_feature_importance,83
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:num_f_valence,Maximum constituent-element: number of f valence electrons,0.2140635576695767,0.0021406355766957668,,model_feature_importance,84
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:gs_mag_moment,Maximum constituent-element: ground-state DFT magnetic moment,0.2117961262169222,0.002117961262169222,,model_feature_importance,85
+XenonPy,CatBoost,chemical__xenonpy_variance__var:hhi_r,Composition-weighted variance: HHI of elemental reserves,0.20896241275822816,0.002089624127582281,,model_feature_importance,86
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:covalent_radius_pyykko_triple,Stoichiometric weighted sum: triple-bond covalent radius (Pyykkö),0.2059284118175982,0.002059284118175982,,model_feature_importance,87
+XenonPy,CatBoost,chemical__xenonpy_average__ave:evaporation_heat,Composition-weighted mean: enthalpy of evaporation,0.20425413380405613,0.002042541338040561,,model_feature_importance,88
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:num_d_unfilled,Stoichiometric weighted sum: number of unfilled d states,0.20377377125774562,0.0020377377125774558,,model_feature_importance,89
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:atomic_radius,Stoichiometric weighted sum: atomic radius,0.20338337701875087,0.0020338337701875085,,model_feature_importance,90
+XenonPy,CatBoost,chemical__xenonpy_variance__var:vdw_radius_alvarez,Composition-weighted variance: van der Waals radius (Alvarez),0.19541017659353443,0.001954101765935344,,model_feature_importance,91
+XenonPy,CatBoost,chemical__xenonpy_variance__var:evaporation_heat,Composition-weighted variance: enthalpy of evaporation,0.19039624870097263,0.001903962487009726,,model_feature_importance,92
+XenonPy,CatBoost,chemical__xenonpy_average__ave:atomic_radius,Composition-weighted mean: atomic radius,0.18852553718346948,0.0018852553718346945,,model_feature_importance,93
+XenonPy,CatBoost,chemical__xenonpy_variance__var:vdw_radius_mm3,Composition-weighted variance: van der Waals radius (MM3),0.18799264147731992,0.001879926414773199,,model_feature_importance,94
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:specific_heat,Minimum constituent-element: specific heat at 20 °C,0.18438612613631974,0.0018438612613631972,,model_feature_importance,95
+XenonPy,CatBoost,chemical__xenonpy_variance__var:vdw_radius,Composition-weighted variance: van der Waals radius,0.1842561169195601,0.0018425611691956006,,model_feature_importance,96
+XenonPy,CatBoost,chemical__xenonpy_average__ave:first_ion_en,Composition-weighted mean: first ionization energy,0.18327825853549212,0.001832782585354921,,model_feature_importance,97
+XenonPy,CatBoost,chemical__xenonpy_variance__var:num_d_unfilled,Composition-weighted variance: number of unfilled d states,0.1791970038394147,0.0017919700383941467,,model_feature_importance,98
+XenonPy,CatBoost,chemical__xenonpy_variance__var:covalent_radius_slater,Composition-weighted variance: covalent radius (Slater),0.17737592410238798,0.0017737592410238794,,model_feature_importance,99
+XenonPy,CatBoost,chemical__xenonpy_average__ave:covalent_radius_pyykko_double,Composition-weighted mean: double-bond covalent radius (Pyykkö),0.17657552698377008,0.0017657552698377005,,model_feature_importance,100
+XenonPy,CatBoost,chemical__xenonpy_average__ave:num_f_unfilled,Composition-weighted mean: number of unfilled f states,0.17645851294285272,0.001764585129428527,,model_feature_importance,101
+XenonPy,CatBoost,chemical__xenonpy_variance__var:Polarizability,Composition-weighted variance: polarizability,0.17609366425524847,0.0017609366425524844,,model_feature_importance,102
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:period,Stoichiometric weighted sum: period number,0.17344174167739787,0.0017344174167739784,,model_feature_importance,103
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:boiling_point,Stoichiometric weighted sum: boiling temperature,0.17325451280396986,0.0017325451280396985,,model_feature_importance,104
+XenonPy,CatBoost,chemical__xenonpy_average__ave:hhi_r,Composition-weighted mean: HHI of elemental reserves,0.17103874239428787,0.0017103874239428785,,model_feature_importance,105
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:atomic_volume,Stoichiometric weighted sum: atomic volume,0.17060880470827025,0.0017060880470827022,,model_feature_importance,106
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:thermal_conductivity,Maximum constituent-element: thermal conductivity at 25 °C,0.1698326674436705,0.0016983266744367048,,model_feature_importance,107
+XenonPy,CatBoost,chemical__xenonpy_variance__var:atomic_radius,Composition-weighted variance: atomic radius,0.16932083719203117,0.0016932083719203115,,model_feature_importance,108
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:heat_of_formation,Stoichiometric weighted sum: enthalpy of formation,0.16845550863431807,0.0016845550863431806,,model_feature_importance,109
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:specific_heat,Stoichiometric weighted sum: specific heat at 20 °C,0.16465417026613016,0.0016465417026613014,,model_feature_importance,110
+XenonPy,CatBoost,chemical__xenonpy_variance__var:covalent_radius_pyykko_triple,Composition-weighted variance: triple-bond covalent radius (Pyykkö),0.16306485579224625,0.0016306485579224623,,model_feature_importance,111
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:gs_volume_per,Maximum constituent-element: ground-state DFT volume per atom,0.1620154397823841,0.0016201543978238409,,model_feature_importance,112
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:num_s_unfilled,Maximum constituent-element: number of unfilled s states,0.16059449322329994,0.0016059449322329991,,model_feature_importance,113
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:dipole_polarizability,Stoichiometric weighted sum: dipole polarizability,0.15930828556909485,0.0015930828556909482,,model_feature_importance,114
+XenonPy,CatBoost,chemical__xenonpy_average__ave:en_pauling,Composition-weighted mean: electronegativity (Pauling),0.1592337628749837,0.0015923376287498368,,model_feature_importance,115
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:atomic_weight,Stoichiometric weighted sum: atomic weight,0.1568959552229616,0.0015689595522296157,,model_feature_importance,116
+XenonPy,CatBoost,chemical__xenonpy_average__ave:covalent_radius_pyykko,Composition-weighted mean: single-bond covalent radius (Pyykkö),0.14589949902267774,0.0014589949902267772,,model_feature_importance,117
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:vdw_radius,Maximum constituent-element: van der Waals radius,0.14506098697606917,0.0014506098697606915,,model_feature_importance,118
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:atomic_radius_rahm,Stoichiometric weighted sum: atomic radius (Rahm),0.14429622094009092,0.001442962209400909,,model_feature_importance,119
+XenonPy,CatBoost,chemical__xenonpy_average__ave:c6_gb,Composition-weighted mean: C₆ dispersion coefficient (GB),0.1414505680181971,0.0014145056801819708,,model_feature_importance,120
+XenonPy,CatBoost,chemical__xenonpy_average__ave:atomic_number,Composition-weighted mean: atomic number,0.1369092921772823,0.0013690929217728227,,model_feature_importance,121
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:num_valance,Maximum constituent-element: number of valence electrons,0.13458479544731639,0.0013458479544731638,,model_feature_importance,122
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:bulk_modulus,Minimum constituent-element: bulk modulus,0.1343993853844398,0.0013439938538443977,,model_feature_importance,123
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:gs_est_fcc_latcnt,Stoichiometric weighted sum: estimated fcc lattice parameter,0.13248911922945286,0.0013248911922945285,,model_feature_importance,124
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:vdw_radius,Stoichiometric weighted sum: van der Waals radius,0.13063046023841313,0.0013063046023841312,,model_feature_importance,125
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:heat_capacity_mass,Stoichiometric weighted sum: mass-specific heat capacity,0.12751250403567568,0.0012751250403567566,,model_feature_importance,126
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:gs_energy,Maximum constituent-element: ground-state DFT energy per atom,0.12497488027815264,0.0012497488027815261,,model_feature_importance,127
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:c6_gb,Maximum constituent-element: C₆ dispersion coefficient (GB),0.12268955004155947,0.0012268955004155946,,model_feature_importance,128
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:icsd_volume,Stoichiometric weighted sum: atomic volume (ICSD),0.12138641551152218,0.0012138641551152217,,model_feature_importance,129
+XenonPy,CatBoost,chemical__xenonpy_variance__var:period,Composition-weighted variance: period number,0.12015316006177028,0.0012015316006177025,,model_feature_importance,130
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:covalent_radius_slater,Maximum constituent-element: covalent radius (Slater),0.11741247470144792,0.001174124747014479,,model_feature_importance,131
+XenonPy,CatBoost,chemical__xenonpy_variance__var:mendeleev_number,Composition-weighted variance: Mendeleev number,0.11535033702479137,0.0011535033702479137,,model_feature_importance,132
+XenonPy,CatBoost,chemical__xenonpy_average__ave:icsd_volume,Composition-weighted mean: atomic volume (ICSD),0.11505893168109112,0.001150589316810911,,model_feature_importance,133
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:hhi_r,Maximum constituent-element: HHI of elemental reserves,0.11336475678359516,0.0011336475678359514,,model_feature_importance,134
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:molar_volume,Maximum constituent-element: molar volume,0.11127271414526144,0.0011127271414526141,,model_feature_importance,135
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:gs_mag_moment,Stoichiometric weighted sum: ground-state DFT magnetic moment,0.10869252775638057,0.0010869252775638056,,model_feature_importance,136
+XenonPy,CatBoost,chemical__xenonpy_variance__var:atomic_volume,Composition-weighted variance: atomic volume,0.1081087604519058,0.001081087604519058,,model_feature_importance,137
+XenonPy,CatBoost,chemical__xenonpy_average__ave:covalent_radius_pyykko_triple,Composition-weighted mean: triple-bond covalent radius (Pyykkö),0.1053474163839166,0.001053474163839166,,model_feature_importance,138
+XenonPy,CatBoost,chemical__xenonpy_average__ave:gs_est_fcc_latcnt,Composition-weighted mean: estimated fcc lattice parameter,0.10454198366671516,0.0010454198366671515,,model_feature_importance,139
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:electron_negativity,Minimum constituent-element: electronegativity,0.10229737231197338,0.0010229737231197335,,model_feature_importance,140
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:num_s_unfilled,Stoichiometric weighted sum: number of unfilled s states,0.09357252808142787,0.0009357252808142785,,model_feature_importance,141
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:Polarizability,Stoichiometric weighted sum: polarizability,0.0858227808393437,0.000858227808393437,,model_feature_importance,142
+XenonPy,CatBoost,chemical__xenonpy_average__ave:heat_of_formation,Composition-weighted mean: enthalpy of formation,0.08318838002125298,0.0008318838002125297,,model_feature_importance,143
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:atomic_volume,Maximum constituent-element: atomic volume,0.0831421828104857,0.0008314218281048569,,model_feature_importance,144
+XenonPy,CatBoost,chemical__xenonpy_variance__var:num_s_unfilled,Composition-weighted variance: number of unfilled s states,0.0819192658610667,0.0008191926586106668,,model_feature_importance,145
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:heat_capacity_mass,Minimum constituent-element: mass-specific heat capacity,0.08187632466101807,0.0008187632466101806,,model_feature_importance,146
+XenonPy,CatBoost,chemical__xenonpy_average__ave:covalent_radius_cordero,Composition-weighted mean: covalent radius (Cordero),0.08006179918265556,0.0008006179918265555,,model_feature_importance,147
+XenonPy,CatBoost,chemical__xenonpy_average__ave:specific_heat,Composition-weighted mean: specific heat at 20 °C,0.07918626973237197,0.0007918626973237197,,model_feature_importance,148
+XenonPy,CatBoost,chemical__xenonpy_variance__var:num_f_valence,Composition-weighted variance: number of f valence electrons,0.07857562476432058,0.0007857562476432056,,model_feature_importance,149
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:covalent_radius_pyykko_double,Stoichiometric weighted sum: double-bond covalent radius (Pyykkö),0.07830547986681084,0.0007830547986681084,,model_feature_importance,150
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:en_ghosh,Minimum constituent-element: electronegativity (Ghosh),0.07776407171192094,0.0007776407171192093,,model_feature_importance,151
+XenonPy,CatBoost,chemical__xenonpy_average__ave:molar_volume,Composition-weighted mean: molar volume,0.0767726810781398,0.0007677268107813979,,model_feature_importance,152
+XenonPy,CatBoost,chemical__xenonpy_variance__var:gs_volume_per,Composition-weighted variance: ground-state DFT volume per atom,0.07594420013024006,0.0007594420013024005,,model_feature_importance,153
+XenonPy,CatBoost,chemical__xenonpy_average__ave:num_s_valence,Composition-weighted mean: number of s valence electrons,0.07590668030784946,0.0007590668030784945,,model_feature_importance,154
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:vdw_radius_uff,Maximum constituent-element: van der Waals radius (UFF),0.07312931607950511,0.000731293160795051,,model_feature_importance,155
+XenonPy,CatBoost,chemical__xenonpy_average__ave:covalent_radius_slater,Composition-weighted mean: covalent radius (Slater),0.07085953075163512,0.000708595307516351,,model_feature_importance,156
+XenonPy,CatBoost,chemical__xenonpy_variance__var:icsd_volume,Composition-weighted variance: atomic volume (ICSD),0.06994489757483459,0.0006994489757483458,,model_feature_importance,157
+XenonPy,CatBoost,chemical__xenonpy_variance__var:first_ion_en,Composition-weighted variance: first ionization energy,0.06872578421510649,0.0006872578421510647,,model_feature_importance,158
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:icsd_volume,Minimum constituent-element: atomic volume (ICSD),0.06650109273464962,0.0006650109273464961,,model_feature_importance,159
+XenonPy,CatBoost,chemical__xenonpy_average__ave:num_d_unfilled,Composition-weighted mean: number of unfilled d states,0.06492344368893169,0.0006492344368893168,,model_feature_importance,160
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:heat_of_formation,Minimum constituent-element: enthalpy of formation,0.0529517090629813,0.000529517090629813,,model_feature_importance,161
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:c6_gb,Stoichiometric weighted sum: C₆ dispersion coefficient (GB),0.0448595050401327,0.0004485950504013269,,model_feature_importance,162
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:atomic_number,Maximum constituent-element: atomic number,0.04021582445405451,0.0004021582445405451,,model_feature_importance,163
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:atomic_weight,Maximum constituent-element: atomic weight,0.03982142858902695,0.00039821428589026944,,model_feature_importance,164
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:num_unfilled,Maximum constituent-element: number of unfilled valence states,0.03574741597793769,0.00035747415977937684,,model_feature_importance,165
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:density,Maximum constituent-element: density at 295 K,0.03189209627366102,0.00031892096273661015,,model_feature_importance,166
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:num_d_valence,Maximum constituent-element: number of d valence electrons,0.03117361675818929,0.0003117361675818929,,model_feature_importance,167
+XenonPy,CatBoost,chemical__xenonpy_variance__var:num_f_unfilled,Composition-weighted variance: number of unfilled f states,0.03045262470001172,0.00030452624700011714,,model_feature_importance,168
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:covalent_radius_cordero,Stoichiometric weighted sum: covalent radius (Cordero),0.029209842911238418,0.00029209842911238416,,model_feature_importance,169
+XenonPy,CatBoost,chemical__xenonpy_average__ave:gs_volume_per,Composition-weighted mean: ground-state DFT volume per atom,0.028208276107460833,0.0002820827610746083,,model_feature_importance,170
+XenonPy,CatBoost,chemical__xenonpy_average__ave:num_f_valence,Composition-weighted mean: number of f valence electrons,0.027776266044551738,0.00027776266044551737,,model_feature_importance,171
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:molar_volume,Stoichiometric weighted sum: molar volume,0.024744447801957666,0.00024744447801957665,,model_feature_importance,172
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:molar_volume,Minimum constituent-element: molar volume,0.023168780274725968,0.00023168780274725965,,model_feature_importance,173
+XenonPy,CatBoost,chemical__xenonpy_variance__var:gs_est_fcc_latcnt,Composition-weighted variance: estimated fcc lattice parameter,0.02007904617822821,0.00020079046178228207,,model_feature_importance,174
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:mendeleev_number,Minimum constituent-element: Mendeleev number,0.01974601327725543,0.0001974601327725543,,model_feature_importance,175
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:gs_volume_per,Stoichiometric weighted sum: ground-state DFT volume per atom,0.015963336122664526,0.00015963336122664523,,model_feature_importance,176
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:density,Minimum constituent-element: density at 295 K,0.014456894105446939,0.00014456894105446938,,model_feature_importance,177
+XenonPy,CatBoost,chemical__xenonpy_average__ave:atomic_volume,Composition-weighted mean: atomic volume,0.013144122003630083,0.00013144122003630083,,model_feature_importance,178
+XenonPy,CatBoost,chemical__xenonpy_average__ave:vdw_radius_alvarez,Composition-weighted mean: van der Waals radius (Alvarez),0.012598981041643816,0.00012598981041643813,,model_feature_importance,179
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:covalent_radius_pyykko_double,Maximum constituent-element: double-bond covalent radius (Pyykkö),0.012036817888343704,0.00012036817888343702,,model_feature_importance,180
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:num_s_valence,Minimum constituent-element: number of s valence electrons,0.01074377057407646,0.00010743770574076458,,model_feature_importance,181
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:gs_est_bcc_latcnt,Maximum constituent-element: estimated bcc lattice parameter,0.010596068706643582,0.0001059606870664358,,model_feature_importance,182
+XenonPy,CatBoost,chemical__xenonpy_variance__var:dipole_polarizability,Composition-weighted variance: dipole polarizability,0.007395046852177173,7.395046852177172e-05,,model_feature_importance,183
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:covalent_radius_pyykko,Maximum constituent-element: single-bond covalent radius (Pyykkö),0.0067232493462317695,6.723249346231769e-05,,model_feature_importance,184
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:num_unfilled,Minimum constituent-element: number of unfilled valence states,0.006640115672098617,6.640115672098615e-05,,model_feature_importance,185
+XenonPy,CatBoost,chemical__xenonpy_variance__var:num_s_valence,Composition-weighted variance: number of s valence electrons,0.0028674114996378613,2.867411499637861e-05,,model_feature_importance,186
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:vdw_radius_uff,Minimum constituent-element: van der Waals radius (UFF),0.002617910454517989,2.6179104545179887e-05,,model_feature_importance,187
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:electron_affinity,Minimum constituent-element: electron affinity,0.0019880179629898163,1.988017962989816e-05,,model_feature_importance,188
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:en_allen,Minimum constituent-element: electronegativity (Allen),0.00095263266259947,9.526326625994699e-06,,model_feature_importance,189
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:gs_est_fcc_latcnt,Maximum constituent-element: estimated fcc lattice parameter,0.0005808527058148704,5.8085270581487035e-06,,model_feature_importance,190
+XenonPy,CatBoost,chemical__xenonpy_average__ave:atomic_radius_rahm,Composition-weighted mean: atomic radius (Rahm),0.0004177083969415972,4.177083969415971e-06,,model_feature_importance,191
+XenonPy,CatBoost,chemical__xenonpy_variance__var:gs_est_bcc_latcnt,Composition-weighted variance: estimated bcc lattice parameter,9.203892414850952e-05,9.203892414850951e-07,,model_feature_importance,192
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:num_s_valence,Stoichiometric weighted sum: number of s valence electrons,5.266835510241624e-05,5.266835510241624e-07,,model_feature_importance,193
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:atomic_radius_rahm,Maximum constituent-element: atomic radius (Rahm),0.0,0.0,,model_feature_importance,194
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:icsd_volume,Maximum constituent-element: atomic volume (ICSD),0.0,0.0,,model_feature_importance,195
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:heat_capacity_mass,Maximum constituent-element: mass-specific heat capacity,0.0,0.0,,model_feature_importance,196
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:vdw_radius_mm3,Maximum constituent-element: van der Waals radius (MM3),0.0,0.0,,model_feature_importance,197
+XenonPy,CatBoost,chemical__xenonpy_average__ave:num_s_unfilled,Composition-weighted mean: number of unfilled s states,0.0,0.0,,model_feature_importance,198
+XenonPy,CatBoost,chemical__xenonpy_minimum__min:num_valance,Minimum constituent-element: number of valence electrons,0.0,0.0,,model_feature_importance,199
+XenonPy,CatBoost,chemical__xenonpy_sum__sum:atomic_number,Stoichiometric weighted sum: atomic number,0.0,0.0,,model_feature_importance,200
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:specific_heat,Maximum constituent-element: specific heat at 20 °C,0.0,0.0,,model_feature_importance,201
+XenonPy,CatBoost,chemical__xenonpy_maximum__max:atomic_radius,Maximum constituent-element: atomic radius,0.0,0.0,,model_feature_importance,202
+Combined,CatBoost,required_physical__magnetic_field_T,"Magnetic field, μ₀H (T)",43.1100450640092,0.4311004506400915,,model_feature_importance,1
+Combined,CatBoost,required_physical__crystallite_size_nm,"Crystallite size, Dcryst (nm)",5.850648471243977,0.0585064847124397,,model_feature_importance,2
+Combined,CatBoost,chemical__xenonpy_variance__var:fusion_enthalpy,Composition-weighted variance: enthalpy of fusion,1.5461211068413454,0.015461211068413437,,model_feature_importance,3
+Combined,CatBoost,chemical__xenonpy_sum__sum:fusion_enthalpy,Stoichiometric weighted sum: enthalpy of fusion,1.4547521461693795,0.01454752146169378,,model_feature_importance,4
+Combined,CatBoost,chemical__xenonpy_average__ave:specific_heat,Composition-weighted mean: specific heat at 20 °C,1.3635978339376287,0.013635978339376272,,model_feature_importance,5
+Combined,CatBoost,chemical__xenonpy_variance__var:electron_affinity,Composition-weighted variance: electron affinity,1.3372053425630082,0.013372053425630066,,model_feature_importance,6
+Combined,CatBoost,chemical__xenonpy_sum__sum:gs_energy,Stoichiometric weighted sum: ground-state DFT energy per atom,1.3109761524503014,0.013109761524503,,model_feature_importance,7
+Combined,CatBoost,chemical__xenonpy_average__ave:melting_point,Composition-weighted mean: melting temperature,1.1936705779742702,0.01193670577974269,,model_feature_importance,8
+Combined,CatBoost,chemical__xenonpy_variance__var:num_unfilled,Composition-weighted variance: number of unfilled valence states,1.1800046804733102,0.011800046804733089,,model_feature_importance,9
+Combined,CatBoost,chemical__xenonpy_sum__sum:melting_point,Stoichiometric weighted sum: melting temperature,1.0112707161823093,0.010112707161823081,,model_feature_importance,10
+Combined,CatBoost,chemical__xenonpy_average__ave:gs_energy,Composition-weighted mean: ground-state DFT energy per atom,0.9844627052859136,0.009844627052859125,,model_feature_importance,11
+Combined,CatBoost,chemical__xenonpy_variance__var:lattice_constant,Composition-weighted variance: lattice constant,0.9531396169785563,0.009531396169785553,,model_feature_importance,12
+Combined,CatBoost,chemical__xenonpy_variance__var:melting_point,Composition-weighted variance: melting temperature,0.902882076002097,0.00902882076002096,,model_feature_importance,13
+Combined,CatBoost,chemical__xenonpy_maximum__max:fusion_enthalpy,Maximum constituent-element: enthalpy of fusion,0.7526720622002581,0.0075267206220025725,,model_feature_importance,14
+Combined,CatBoost,chemical__xenonpy_variance__var:thermal_conductivity,Composition-weighted variance: thermal conductivity at 25 °C,0.7271790181356127,0.007271790181356119,,model_feature_importance,15
+Combined,CatBoost,chemical__xenonpy_variance__var:bulk_modulus,Composition-weighted variance: bulk modulus,0.7269794310340522,0.007269794310340513,,model_feature_importance,16
+Combined,CatBoost,chemical__xenonpy_variance__var:mendeleev_number,Composition-weighted variance: Mendeleev number,0.7016146980005474,0.0070161469800054665,,model_feature_importance,17
+Combined,CatBoost,chemical__xenonpy_variance__var:en_allen,Composition-weighted variance: electronegativity (Allen),0.6830627400950323,0.006830627400950315,,model_feature_importance,18
+Combined,CatBoost,chemical__xenonpy_average__ave:bulk_modulus,Composition-weighted mean: bulk modulus,0.6726728674885372,0.006726728674885364,,model_feature_importance,19
+Combined,CatBoost,chemical__xenonpy_variance__var:num_f_unfilled,Composition-weighted variance: number of unfilled f states,0.6433376056614935,0.006433376056614927,,model_feature_importance,20
+Combined,CatBoost,chemical__xenonpy_variance__var:gs_energy,Composition-weighted variance: ground-state DFT energy per atom,0.60658563550266,0.006065856355026593,,model_feature_importance,21
+Combined,CatBoost,chemical__xenonpy_variance__var:boiling_point,Composition-weighted variance: boiling temperature,0.6035704007830343,0.006035704007830336,,model_feature_importance,22
+Combined,CatBoost,chemical__xenonpy_variance__var:heat_of_formation,Composition-weighted variance: enthalpy of formation,0.5717528878145627,0.00571752887814562,,model_feature_importance,23
+Combined,CatBoost,chemical__xenonpy_variance__var:en_ghosh,Composition-weighted variance: electronegativity (Ghosh),0.5422523850500318,0.005422523850500312,,model_feature_importance,24
+Combined,CatBoost,chemical__xenonpy_variance__var:atomic_number,Composition-weighted variance: atomic number,0.5140187055106646,0.005140187055106641,,model_feature_importance,25
+Combined,CatBoost,chemical__comp_Sr,Stoichiometric coefficient of Sr (O = 3),0.49814781224512267,0.004981478122451221,,model_feature_importance,26
+Combined,CatBoost,chemical__xenonpy_variance__var:evaporation_heat,Composition-weighted variance: enthalpy of evaporation,0.4875187998489591,0.004875187998489585,,model_feature_importance,27
+Combined,CatBoost,chemical__xenonpy_variance__var:en_pauling,Composition-weighted variance: electronegativity (Pauling),0.48107487868648224,0.004810748786864817,,model_feature_importance,28
+Combined,CatBoost,chemical__xenonpy_average__ave:icsd_volume,Composition-weighted mean: atomic volume (ICSD),0.4776113606056369,0.004776113606056363,,model_feature_importance,29
+Combined,CatBoost,chemical__xenonpy_sum__sum:sound_velocity,Stoichiometric weighted sum: speed of sound,0.47168910568341416,0.004716891056834136,,model_feature_importance,30
+Combined,CatBoost,chemical__xenonpy_average__ave:en_ghosh,Composition-weighted mean: electronegativity (Ghosh),0.4654539166005458,0.0046545391660054525,,model_feature_importance,31
+Combined,CatBoost,chemical__xenonpy_average__ave:hhi_p,Composition-weighted mean: HHI of elemental production,0.46225442202545614,0.004622544220254556,,model_feature_importance,32
+Combined,CatBoost,chemical__xenonpy_average__ave:boiling_point,Composition-weighted mean: boiling temperature,0.45506122601205823,0.004550612260120577,,model_feature_importance,33
+Combined,CatBoost,chemical__xenonpy_average__ave:num_valance,Composition-weighted mean: number of valence electrons,0.4426250554284924,0.004426250554284919,,model_feature_importance,34
+Combined,CatBoost,chemical__xenonpy_sum__sum:hhi_p,Stoichiometric weighted sum: HHI of elemental production,0.42913193098597574,0.0042913193098597525,,model_feature_importance,35
+Combined,CatBoost,chemical__xenonpy_variance__var:heat_capacity_mass,Composition-weighted variance: mass-specific heat capacity,0.42222272986017173,0.004222227298601712,,model_feature_importance,36
+Combined,CatBoost,chemical__xenonpy_average__ave:heat_capacity_mass,Composition-weighted mean: mass-specific heat capacity,0.41049844618934156,0.0041049844618934106,,model_feature_importance,37
+Combined,CatBoost,chemical__xenonpy_sum__sum:bulk_modulus,Stoichiometric weighted sum: bulk modulus,0.4090602045208944,0.0040906020452089395,,model_feature_importance,38
+Combined,CatBoost,chemical__xenonpy_variance__var:period,Composition-weighted variance: period number,0.4088161305236668,0.004088161305236663,,model_feature_importance,39
+Combined,CatBoost,chemical__xenonpy_sum__sum:boiling_point,Stoichiometric weighted sum: boiling temperature,0.4079772154787223,0.004079772154787218,,model_feature_importance,40
+Combined,CatBoost,chemical__xenonpy_variance__var:specific_heat,Composition-weighted variance: specific heat at 20 °C,0.4058160861045013,0.004058160861045009,,model_feature_importance,41
+Combined,CatBoost,chemical__xenonpy_sum__sum:mendeleev_number,Stoichiometric weighted sum: Mendeleev number,0.4055355927498779,0.004055355927498774,,model_feature_importance,42
+Combined,CatBoost,chemical__xenonpy_sum__sum:thermal_conductivity,Stoichiometric weighted sum: thermal conductivity at 25 °C,0.40183174425328105,0.004018317442532806,,model_feature_importance,43
+Combined,CatBoost,chemical__xenonpy_variance__var:hhi_p,Composition-weighted variance: HHI of elemental production,0.39545593531308343,0.00395455935313083,,model_feature_importance,44
+Combined,CatBoost,chemical__xenonpy_sum__sum:atomic_number,Stoichiometric weighted sum: atomic number,0.39380890629076704,0.003938089062907666,,model_feature_importance,45
+Combined,CatBoost,chemical__xenonpy_average__ave:vdw_radius_mm3,Composition-weighted mean: van der Waals radius (MM3),0.3810638586805389,0.0038106385868053845,,model_feature_importance,46
+Combined,CatBoost,chemical__xenonpy_average__ave:num_f_unfilled,Composition-weighted mean: number of unfilled f states,0.3753129109699799,0.0037531291096997944,,model_feature_importance,47
+Combined,CatBoost,chemical__xenonpy_variance__var:gs_mag_moment,Composition-weighted variance: ground-state DFT magnetic moment,0.36173517307552594,0.0036173517307552553,,model_feature_importance,48
+Combined,CatBoost,chemical__xenonpy_average__ave:num_d_valence,Composition-weighted mean: number of d valence electrons,0.3616203540232382,0.003616203540232378,,model_feature_importance,49
+Combined,CatBoost,chemical__xenonpy_average__ave:density,Composition-weighted mean: density at 295 K,0.3588542761045975,0.003588542761045971,,model_feature_importance,50
+Combined,CatBoost,chemical__xenonpy_sum__sum:icsd_volume,Stoichiometric weighted sum: atomic volume (ICSD),0.35166439688537227,0.0035166439688537185,,model_feature_importance,51
+Combined,CatBoost,chemical__xenonpy_average__ave:en_allen,Composition-weighted mean: electronegativity (Allen),0.3461931372464786,0.0034619313724647822,,model_feature_importance,52
+Combined,CatBoost,chemical__xenonpy_sum__sum:heat_capacity_mass,Stoichiometric weighted sum: mass-specific heat capacity,0.3367463152768477,0.003367463152768473,,model_feature_importance,53
+Combined,CatBoost,chemical__xenonpy_minimum__min:vdw_radius_uff,Minimum constituent-element: van der Waals radius (UFF),0.33498959369934334,0.0033498959369934293,,model_feature_importance,54
+Combined,CatBoost,chemical__xenonpy_average__ave:en_pauling,Composition-weighted mean: electronegativity (Pauling),0.32312031826271254,0.0032312031826271215,,model_feature_importance,55
+Combined,CatBoost,chemical__xenonpy_average__ave:covalent_radius_slater,Composition-weighted mean: covalent radius (Slater),0.3205702881098537,0.0032057028810985335,,model_feature_importance,56
+Combined,CatBoost,chemical__xenonpy_average__ave:electron_negativity,Composition-weighted mean: electronegativity,0.32005391219940293,0.0032005391219940256,,model_feature_importance,57
+Combined,CatBoost,chemical__xenonpy_sum__sum:en_allen,Stoichiometric weighted sum: electronegativity (Allen),0.3189967228418404,0.0031899672284184002,,model_feature_importance,58
+Combined,CatBoost,chemical__xenonpy_average__ave:atomic_weight,Composition-weighted mean: atomic weight,0.3009021511449431,0.0030090215114494277,,model_feature_importance,59
+Combined,CatBoost,chemical__xenonpy_sum__sum:heat_capacity_molar,Stoichiometric weighted sum: molar heat capacity,0.29752966037442824,0.002975296603744279,,model_feature_importance,60
+Combined,CatBoost,chemical__xenonpy_variance__var:atomic_weight,Composition-weighted variance: atomic weight,0.28872067581125754,0.002887206758112572,,model_feature_importance,61
+Combined,CatBoost,chemical__xenonpy_sum__sum:hhi_r,Stoichiometric weighted sum: HHI of elemental reserves,0.2869910405254632,0.0028699104052546287,,model_feature_importance,62
+Combined,CatBoost,chemical__xenonpy_variance__var:hhi_r,Composition-weighted variance: HHI of elemental reserves,0.28172141633918457,0.0028172141633918423,,model_feature_importance,63
+Combined,CatBoost,chemical__xenonpy_variance__var:num_d_unfilled,Composition-weighted variance: number of unfilled d states,0.2786668137002837,0.0027866681370028335,,model_feature_importance,64
+Combined,CatBoost,chemical__xenonpy_average__ave:mendeleev_number,Composition-weighted mean: Mendeleev number,0.2742843495303657,0.0027428434953036536,,model_feature_importance,65
+Combined,CatBoost,chemical__xenonpy_minimum__min:atomic_radius,Minimum constituent-element: atomic radius,0.2659305420753042,0.002659305420753039,,model_feature_importance,66
+Combined,CatBoost,chemical__xenonpy_average__ave:vdw_radius_alvarez,Composition-weighted mean: van der Waals radius (Alvarez),0.26260731662804804,0.0026260731662804773,,model_feature_importance,67
+Combined,CatBoost,chemical__xenonpy_average__ave:num_unfilled,Composition-weighted mean: number of unfilled valence states,0.2564326078192926,0.002564326078192923,,model_feature_importance,68
+Combined,CatBoost,chemical__xenonpy_average__ave:heat_of_formation,Composition-weighted mean: enthalpy of formation,0.2531090232747152,0.002531090232747149,,model_feature_importance,69
+Combined,CatBoost,chemical__xenonpy_minimum__min:specific_heat,Minimum constituent-element: specific heat at 20 °C,0.25148579724301423,0.0025148579724301396,,model_feature_importance,70
+Combined,CatBoost,chemical__xenonpy_maximum__max:num_f_unfilled,Maximum constituent-element: number of unfilled f states,0.2501723475259358,0.0025017234752593553,,model_feature_importance,71
+Combined,CatBoost,chemical__xenonpy_sum__sum:electron_negativity,Stoichiometric weighted sum: electronegativity,0.24496278214288786,0.0024496278214288757,,model_feature_importance,72
+Combined,CatBoost,chemical__xenonpy_minimum__min:molar_volume,Minimum constituent-element: molar volume,0.23887306771674455,0.0023887306771674427,,model_feature_importance,73
+Combined,CatBoost,chemical__xenonpy_average__ave:sound_velocity,Composition-weighted mean: speed of sound,0.23377884739535013,0.0023377884739534988,,model_feature_importance,74
+Combined,CatBoost,chemical__xenonpy_variance__var:gs_est_bcc_latcnt,Composition-weighted variance: estimated bcc lattice parameter,0.2316342508768205,0.0023163425087682024,,model_feature_importance,75
+Combined,CatBoost,chemical__xenonpy_average__ave:lattice_constant,Composition-weighted mean: lattice constant,0.23090183113221915,0.002309018311322189,,model_feature_importance,76
+Combined,CatBoost,chemical__xenonpy_variance__var:gs_volume_per,Composition-weighted variance: ground-state DFT volume per atom,0.22369063334565936,0.002236906333456591,,model_feature_importance,77
+Combined,CatBoost,chemical__xenonpy_variance__var:atomic_radius_rahm,Composition-weighted variance: atomic radius (Rahm),0.22306007571390224,0.00223060075713902,,model_feature_importance,78
+Combined,CatBoost,chemical__xenonpy_variance__var:molar_volume,Composition-weighted variance: molar volume,0.2219285130920876,0.0022192851309208736,,model_feature_importance,79
+Combined,CatBoost,chemical__xenonpy_variance__var:vdw_radius,Composition-weighted variance: van der Waals radius,0.21814486074651757,0.002181448607465173,,model_feature_importance,80
+Combined,CatBoost,chemical__xenonpy_variance__var:gs_est_fcc_latcnt,Composition-weighted variance: estimated fcc lattice parameter,0.21720985523659064,0.002172098552365904,,model_feature_importance,81
+Combined,CatBoost,chemical__xenonpy_maximum__max:thermal_conductivity,Maximum constituent-element: thermal conductivity at 25 °C,0.21514651412498667,0.002151465141249864,,model_feature_importance,82
+Combined,CatBoost,chemical__xenonpy_sum__sum:num_unfilled,Stoichiometric weighted sum: number of unfilled valence states,0.21247456453795757,0.0021247456453795735,,model_feature_importance,83
+Combined,CatBoost,chemical__xenonpy_minimum__min:heat_of_formation,Minimum constituent-element: enthalpy of formation,0.20983432845743163,0.002098343284574314,,model_feature_importance,84
+Combined,CatBoost,chemical__xenonpy_average__ave:num_d_unfilled,Composition-weighted mean: number of unfilled d states,0.20875931220710778,0.0020875931220710755,,model_feature_importance,85
+Combined,CatBoost,chemical__xenonpy_sum__sum:covalent_radius_pyykko_double,Stoichiometric weighted sum: double-bond covalent radius (Pyykkö),0.20620397816613173,0.002062039781661315,,model_feature_importance,86
+Combined,CatBoost,chemical__xenonpy_variance__var:icsd_volume,Composition-weighted variance: atomic volume (ICSD),0.20420860805592445,0.0020420860805592423,,model_feature_importance,87
+Combined,CatBoost,chemical__xenonpy_sum__sum:en_pauling,Stoichiometric weighted sum: electronegativity (Pauling),0.19819227030160136,0.0019819227030160114,,model_feature_importance,88
+Combined,CatBoost,chemical__xenonpy_average__ave:vdw_radius,Composition-weighted mean: van der Waals radius,0.19509550807314974,0.0019509550807314952,,model_feature_importance,89
+Combined,CatBoost,chemical__xenonpy_sum__sum:covalent_radius_pyykko,Stoichiometric weighted sum: single-bond covalent radius (Pyykkö),0.1936934530033572,0.0019369345300335697,,model_feature_importance,90
+Combined,CatBoost,chemical__xenonpy_maximum__max:num_s_unfilled,Maximum constituent-element: number of unfilled s states,0.18884688606408545,0.0018884688606408523,,model_feature_importance,91
+Combined,CatBoost,chemical__xenonpy_variance__var:covalent_radius_pyykko_double,Composition-weighted variance: double-bond covalent radius (Pyykkö),0.18754516204854843,0.0018754516204854822,,model_feature_importance,92
+Combined,CatBoost,chemical__xenonpy_sum__sum:num_f_unfilled,Stoichiometric weighted sum: number of unfilled f states,0.18726743357195452,0.001872674335719543,,model_feature_importance,93
+Combined,CatBoost,chemical__xenonpy_sum__sum:num_f_valence,Stoichiometric weighted sum: number of f valence electrons,0.1828704658187955,0.0018287046581879531,,model_feature_importance,94
+Combined,CatBoost,chemical__xenonpy_sum__sum:electron_affinity,Stoichiometric weighted sum: electron affinity,0.18279578327641838,0.0018279578327641817,,model_feature_importance,95
+Combined,CatBoost,chemical__xenonpy_sum__sum:atomic_volume,Stoichiometric weighted sum: atomic volume,0.17915513973398697,0.0017915513973398678,,model_feature_importance,96
+Combined,CatBoost,chemical__xenonpy_average__ave:electron_affinity,Composition-weighted mean: electron affinity,0.1728720507171314,0.001728720507171312,,model_feature_importance,97
+Combined,CatBoost,chemical__xenonpy_maximum__max:bulk_modulus,Maximum constituent-element: bulk modulus,0.1711834414451525,0.001711834414451523,,model_feature_importance,98
+Combined,CatBoost,chemical__xenonpy_average__ave:evaporation_heat,Composition-weighted mean: enthalpy of evaporation,0.17069336458480291,0.0017069336458480273,,model_feature_importance,99
+Combined,CatBoost,chemical__xenonpy_maximum__max:hhi_r,Maximum constituent-element: HHI of elemental reserves,0.16895602579099517,0.0016895602579099498,,model_feature_importance,100
+Combined,CatBoost,chemical__xenonpy_minimum__min:atomic_volume,Minimum constituent-element: atomic volume,0.16882998918067418,0.0016882998918067399,,model_feature_importance,101
+Combined,CatBoost,chemical__xenonpy_sum__sum:period,Stoichiometric weighted sum: period number,0.1688105710490975,0.001688105710490973,,model_feature_importance,102
+Combined,CatBoost,chemical__xenonpy_variance__var:vdw_radius_mm3,Composition-weighted variance: van der Waals radius (MM3),0.16861043139975487,0.0016861043139975468,,model_feature_importance,103
+Combined,CatBoost,chemical__xenonpy_average__ave:covalent_radius_pyykko_double,Composition-weighted mean: double-bond covalent radius (Pyykkö),0.16021971381646793,0.0016021971381646775,,model_feature_importance,104
+Combined,CatBoost,chemical__xenonpy_sum__sum:specific_heat,Stoichiometric weighted sum: specific heat at 20 °C,0.1587011178653586,0.001587011178653584,,model_feature_importance,105
+Combined,CatBoost,chemical__xenonpy_maximum__max:icsd_volume,Maximum constituent-element: atomic volume (ICSD),0.1558747886115139,0.0015587478861151373,,model_feature_importance,106
+Combined,CatBoost,chemical__comp_Dy,Stoichiometric coefficient of Dy (O = 3),0.15263908634562273,0.0015263908634562257,,model_feature_importance,107
+Combined,CatBoost,chemical__xenonpy_minimum__min:first_ion_en,Minimum constituent-element: first ionization energy,0.1521631478014578,0.0015216314780145761,,model_feature_importance,108
+Combined,CatBoost,chemical__xenonpy_sum__sum:lattice_constant,Stoichiometric weighted sum: lattice constant,0.15067463413447246,0.0015067463413447229,,model_feature_importance,109
+Combined,CatBoost,chemical__xenonpy_variance__var:dipole_polarizability,Composition-weighted variance: dipole polarizability,0.15031459462182564,0.0015031459462182548,,model_feature_importance,110
+Combined,CatBoost,chemical__xenonpy_sum__sum:num_s_valence,Stoichiometric weighted sum: number of s valence electrons,0.1494275231806044,0.0014942752318060422,,model_feature_importance,111
+Combined,CatBoost,chemical__xenonpy_variance__var:vdw_radius_alvarez,Composition-weighted variance: van der Waals radius (Alvarez),0.1457613381364491,0.0014576133813644892,,model_feature_importance,112
+Combined,CatBoost,chemical__xenonpy_average__ave:heat_capacity_molar,Composition-weighted mean: molar heat capacity,0.14408279443352093,0.0014408279443352077,,model_feature_importance,113
+Combined,CatBoost,chemical__xenonpy_variance__var:heat_capacity_molar,Composition-weighted variance: molar heat capacity,0.13905633608978893,0.0013905633608978878,,model_feature_importance,114
+Combined,CatBoost,chemical__xenonpy_minimum__min:heat_capacity_mass,Minimum constituent-element: mass-specific heat capacity,0.1373023034869957,0.0013730230348699556,,model_feature_importance,115
+Combined,CatBoost,chemical__xenonpy_sum__sum:num_s_unfilled,Stoichiometric weighted sum: number of unfilled s states,0.1345903090123293,0.0013459030901232915,,model_feature_importance,116
+Combined,CatBoost,chemical__xenonpy_maximum__max:num_unfilled,Maximum constituent-element: number of unfilled valence states,0.1345634725523664,0.0013456347255236625,,model_feature_importance,117
+Combined,CatBoost,chemical__xenonpy_sum__sum:num_d_valence,Stoichiometric weighted sum: number of d valence electrons,0.1312808197759704,0.0013128081977597024,,model_feature_importance,118
+Combined,CatBoost,chemical__xenonpy_sum__sum:gs_est_bcc_latcnt,Stoichiometric weighted sum: estimated bcc lattice parameter,0.13061969682448513,0.0013061969682448499,,model_feature_importance,119
+Combined,CatBoost,chemical__xenonpy_average__ave:atomic_volume,Composition-weighted mean: atomic volume,0.12791906034258302,0.0012791906034258288,,model_feature_importance,120
+Combined,CatBoost,chemical__xenonpy_average__ave:period,Composition-weighted mean: period number,0.12199888604864506,0.0012199888604864492,,model_feature_importance,121
+Combined,CatBoost,chemical__xenonpy_sum__sum:density,Stoichiometric weighted sum: density at 295 K,0.12130511007696211,0.0012130511007696198,,model_feature_importance,122
+Combined,CatBoost,chemical__xenonpy_sum__sum:vdw_radius_alvarez,Stoichiometric weighted sum: van der Waals radius (Alvarez),0.11851777692976861,0.0011851777692976847,,model_feature_importance,123
+Combined,CatBoost,chemical__xenonpy_sum__sum:num_d_unfilled,Stoichiometric weighted sum: number of unfilled d states,0.11709589389993398,0.0011709589389993385,,model_feature_importance,124
+Combined,CatBoost,chemical__xenonpy_variance__var:Polarizability,Composition-weighted variance: polarizability,0.11698650073469087,0.0011698650073469073,,model_feature_importance,125
+Combined,CatBoost,chemical__xenonpy_variance__var:num_f_valence,Composition-weighted variance: number of f valence electrons,0.11579879241414603,0.001157987924141459,,model_feature_importance,126
+Combined,CatBoost,chemical__xenonpy_minimum__min:electron_negativity,Minimum constituent-element: electronegativity,0.11288588393432909,0.0011288588393432897,,model_feature_importance,127
+Combined,CatBoost,chemical__xenonpy_maximum__max:covalent_radius_pyykko_double,Maximum constituent-element: double-bond covalent radius (Pyykkö),0.11261412758440888,0.0011261412758440876,,model_feature_importance,128
+Combined,CatBoost,chemical__comp_Bi,Stoichiometric coefficient of Bi (O = 3),0.11156563810481317,0.0011156563810481304,,model_feature_importance,129
+Combined,CatBoost,chemical__xenonpy_variance__var:covalent_radius_slater,Composition-weighted variance: covalent radius (Slater),0.10958597971999424,0.0010958597971999413,,model_feature_importance,130
+Combined,CatBoost,chemical__xenonpy_variance__var:covalent_radius_cordero,Composition-weighted variance: covalent radius (Cordero),0.10931227155578603,0.001093122715557859,,model_feature_importance,131
+Combined,CatBoost,chemical__xenonpy_average__ave:dipole_polarizability,Composition-weighted mean: dipole polarizability,0.10911287785293532,0.001091128778529352,,model_feature_importance,132
+Combined,CatBoost,chemical__xenonpy_average__ave:thermal_conductivity,Composition-weighted mean: thermal conductivity at 25 °C,0.10782536526927304,0.0010782536526927292,,model_feature_importance,133
+Combined,CatBoost,chemical__xenonpy_minimum__min:icsd_volume,Minimum constituent-element: atomic volume (ICSD),0.10778878121264855,0.0010778878121264844,,model_feature_importance,134
+Combined,CatBoost,chemical__xenonpy_maximum__max:dipole_polarizability,Maximum constituent-element: dipole polarizability,0.10532545986762269,0.0010532545986762258,,model_feature_importance,135
+Combined,CatBoost,chemical__xenonpy_variance__var:density,Composition-weighted variance: density at 295 K,0.10521859075605051,0.001052185907560504,,model_feature_importance,136
+Combined,CatBoost,chemical__xenonpy_sum__sum:vdw_radius,Stoichiometric weighted sum: van der Waals radius,0.10084126631518071,0.001008412663151806,,model_feature_importance,137
+Combined,CatBoost,chemical__xenonpy_variance__var:num_s_unfilled,Composition-weighted variance: number of unfilled s states,0.09939506136955364,0.0009939506136955353,,model_feature_importance,138
+Combined,CatBoost,chemical__xenonpy_maximum__max:num_f_valence,Maximum constituent-element: number of f valence electrons,0.09641626042259334,0.0009641626042259323,,model_feature_importance,139
+Combined,CatBoost,chemical__xenonpy_sum__sum:heat_of_formation,Stoichiometric weighted sum: enthalpy of formation,0.09348442849845366,0.0009348442849845355,,model_feature_importance,140
+Combined,CatBoost,chemical__xenonpy_sum__sum:gs_est_fcc_latcnt,Stoichiometric weighted sum: estimated fcc lattice parameter,0.09128172881556214,0.0009128172881556204,,model_feature_importance,141
+Combined,CatBoost,chemical__xenonpy_maximum__max:atomic_number,Maximum constituent-element: atomic number,0.08992804810634124,0.0008992804810634114,,model_feature_importance,142
+Combined,CatBoost,chemical__xenonpy_variance__var:atomic_radius,Composition-weighted variance: atomic radius,0.08985754733931574,0.0008985754733931564,,model_feature_importance,143
+Combined,CatBoost,chemical__xenonpy_variance__var:sound_velocity,Composition-weighted variance: speed of sound,0.08947511769911369,0.0008947511769911359,,model_feature_importance,144
+Combined,CatBoost,chemical__xenonpy_sum__sum:c6_gb,Stoichiometric weighted sum: C₆ dispersion coefficient (GB),0.08381787884352043,0.0008381787884352034,,model_feature_importance,145
+Combined,CatBoost,chemical__xenonpy_maximum__max:covalent_radius_pyykko,Maximum constituent-element: single-bond covalent radius (Pyykkö),0.0832948418264008,0.0008329484182640071,,model_feature_importance,146
+Combined,CatBoost,chemical__xenonpy_maximum__max:gs_est_fcc_latcnt,Maximum constituent-element: estimated fcc lattice parameter,0.08227619178723834,0.0008227619178723825,,model_feature_importance,147
+Combined,CatBoost,chemical__xenonpy_average__ave:num_f_valence,Composition-weighted mean: number of f valence electrons,0.07574734288378893,0.0007574734288378884,,model_feature_importance,148
+Combined,CatBoost,chemical__comp_Ca,Stoichiometric coefficient of Ca (O = 3),0.07367255308052263,0.0007367255308052254,,model_feature_importance,149
+Combined,CatBoost,chemical__xenonpy_average__ave:molar_volume,Composition-weighted mean: molar volume,0.073468113343387,0.0007346811334338691,,model_feature_importance,150
+Combined,CatBoost,chemical__xenonpy_variance__var:first_ion_en,Composition-weighted variance: first ionization energy,0.07165817481530182,0.0007165817481530174,,model_feature_importance,151
+Combined,CatBoost,chemical__xenonpy_average__ave:Polarizability,Composition-weighted mean: polarizability,0.06897697310024839,0.0006897697310024831,,model_feature_importance,152
+Combined,CatBoost,chemical__xenonpy_average__ave:gs_volume_per,Composition-weighted mean: ground-state DFT volume per atom,0.06168903773214531,0.0006168903773214524,,model_feature_importance,153
+Combined,CatBoost,chemical__xenonpy_average__ave:covalent_radius_pyykko_triple,Composition-weighted mean: triple-bond covalent radius (Pyykkö),0.06157690158188581,0.0006157690158188574,,model_feature_importance,154
+Combined,CatBoost,chemical__xenonpy_minimum__min:mendeleev_number,Minimum constituent-element: Mendeleev number,0.06046744129704969,0.0006046744129704962,,model_feature_importance,155
+Combined,CatBoost,chemical__xenonpy_maximum__max:gs_est_bcc_latcnt,Maximum constituent-element: estimated bcc lattice parameter,0.05682194897002673,0.0005682194897002667,,model_feature_importance,156
+Combined,CatBoost,chemical__xenonpy_minimum__min:bulk_modulus,Minimum constituent-element: bulk modulus,0.055878380689539216,0.0005587838068953915,,model_feature_importance,157
+Combined,CatBoost,chemical__xenonpy_variance__var:c6_gb,Composition-weighted variance: C₆ dispersion coefficient (GB),0.05452115388989122,0.0005452115388989116,,model_feature_importance,158
+Combined,CatBoost,chemical__xenonpy_sum__sum:evaporation_heat,Stoichiometric weighted sum: enthalpy of evaporation,0.05338368577761543,0.0005338368577761537,,model_feature_importance,159
+Combined,CatBoost,chemical__xenonpy_variance__var:covalent_radius_pyykko_triple,Composition-weighted variance: triple-bond covalent radius (Pyykkö),0.05095361982527641,0.0005095361982527635,,model_feature_importance,160
+Combined,CatBoost,chemical__xenonpy_sum__sum:first_ion_en,Stoichiometric weighted sum: first ionization energy,0.049149990205006364,0.0004914999020500631,,model_feature_importance,161
+Combined,CatBoost,chemical__xenonpy_sum__sum:covalent_radius_slater,Stoichiometric weighted sum: covalent radius (Slater),0.04421643755569204,0.00044216437555691986,,model_feature_importance,162
+Combined,CatBoost,chemical__xenonpy_maximum__max:num_valance,Maximum constituent-element: number of valence electrons,0.04125695445376375,0.000412569544537637,,model_feature_importance,163
+Combined,CatBoost,chemical__xenonpy_maximum__max:atomic_weight,Maximum constituent-element: atomic weight,0.041225918773968334,0.00041225918773968285,,model_feature_importance,164
+Combined,CatBoost,chemical__xenonpy_maximum__max:gs_mag_moment,Maximum constituent-element: ground-state DFT magnetic moment,0.041158698245642236,0.0004115869824564219,,model_feature_importance,165
+Combined,CatBoost,chemical__xenonpy_average__ave:atomic_radius_rahm,Composition-weighted mean: atomic radius (Rahm),0.040902403819866734,0.00040902403819866685,,model_feature_importance,166
+Combined,CatBoost,chemical__xenonpy_minimum__min:num_s_valence,Minimum constituent-element: number of s valence electrons,0.04058534495241117,0.00040585344952411126,,model_feature_importance,167
+Combined,CatBoost,chemical__xenonpy_maximum__max:num_d_valence,Maximum constituent-element: number of d valence electrons,0.038713508194040826,0.00038713508194040784,,model_feature_importance,168
+Combined,CatBoost,chemical__comp_Ni,Stoichiometric coefficient of Ni (O = 3),0.03814516036998551,0.0003814516036998547,,model_feature_importance,169
+Combined,CatBoost,chemical__xenonpy_average__ave:fusion_enthalpy,Composition-weighted mean: enthalpy of fusion,0.03674643654214267,0.0003674643654214263,,model_feature_importance,170
+Combined,CatBoost,chemical__xenonpy_average__ave:covalent_radius_cordero,Composition-weighted mean: covalent radius (Cordero),0.03672031807612699,0.0003672031807612695,,model_feature_importance,171
+Combined,CatBoost,chemical__xenonpy_sum__sum:atomic_radius_rahm,Stoichiometric weighted sum: atomic radius (Rahm),0.035872534151531334,0.00035872534151531294,,model_feature_importance,172
+Combined,CatBoost,chemical__xenonpy_maximum__max:heat_capacity_mass,Maximum constituent-element: mass-specific heat capacity,0.03585065677566992,0.0003585065677566988,,model_feature_importance,173
+Combined,CatBoost,chemical__xenonpy_average__ave:num_s_valence,Composition-weighted mean: number of s valence electrons,0.02699829422649974,0.0002699829422649971,,model_feature_importance,174
+Combined,CatBoost,chemical__xenonpy_variance__var:atomic_volume,Composition-weighted variance: atomic volume,0.02573758394073216,0.00025737583940732133,,model_feature_importance,175
+Combined,CatBoost,chemical__comp_La,Stoichiometric coefficient of La (O = 3),0.02544783271489506,0.00025447832714895033,,model_feature_importance,176
+Combined,CatBoost,chemical__xenonpy_average__ave:atomic_radius,Composition-weighted mean: atomic radius,0.025338633081573192,0.0002533863308157316,,model_feature_importance,177
+Combined,CatBoost,chemical__xenonpy_maximum__max:vdw_radius_uff,Maximum constituent-element: van der Waals radius (UFF),0.02366714502068194,0.00023667145020681913,,model_feature_importance,178
+Combined,CatBoost,chemical__xenonpy_average__ave:gs_est_bcc_latcnt,Composition-weighted mean: estimated bcc lattice parameter,0.02336282263270687,0.00023362822632706844,,model_feature_importance,179
+Combined,CatBoost,chemical__xenonpy_maximum__max:molar_volume,Maximum constituent-element: molar volume,0.022294039650829954,0.0002229403965082993,,model_feature_importance,180
+Combined,CatBoost,chemical__xenonpy_sum__sum:gs_volume_per,Stoichiometric weighted sum: ground-state DFT volume per atom,0.02114176893770388,0.00021141768937703857,,model_feature_importance,181
+Combined,CatBoost,chemical__xenonpy_minimum__min:en_ghosh,Minimum constituent-element: electronegativity (Ghosh),0.01531440743086224,0.00015314407430862224,,model_feature_importance,182
+Combined,CatBoost,chemical__comp_Na,Stoichiometric coefficient of Na (O = 3),0.01433021840097739,0.00014330218400977374,,model_feature_importance,183
+Combined,CatBoost,chemical__xenonpy_average__ave:gs_est_fcc_latcnt,Composition-weighted mean: estimated fcc lattice parameter,0.012271616873304888,0.00012271616873304873,,model_feature_importance,184
+Combined,CatBoost,chemical__xenonpy_maximum__max:covalent_radius_slater,Maximum constituent-element: covalent radius (Slater),0.010754449029502991,0.0001075444902950298,,model_feature_importance,185
+Combined,CatBoost,chemical__xenonpy_sum__sum:atomic_weight,Stoichiometric weighted sum: atomic weight,0.006979081196531661,6.979081196531654e-05,,model_feature_importance,186
+Combined,CatBoost,chemical__comp_Pr,Stoichiometric coefficient of Pr (O = 3),0.004471402729650749,4.471402729650744e-05,,model_feature_importance,187
+Combined,CatBoost,chemical__xenonpy_maximum__max:vdw_radius,Maximum constituent-element: van der Waals radius,0.001280744391566159,1.2807443915661576e-05,,model_feature_importance,188
+Combined,CatBoost,chemical__xenonpy_maximum__max:gs_energy,Maximum constituent-element: ground-state DFT energy per atom,0.0009334388864055036,9.334388864055025e-06,,model_feature_importance,189
+Combined,CatBoost,chemical__xenonpy_maximum__max:gs_volume_per,Maximum constituent-element: ground-state DFT volume per atom,0.00033203853773874605,3.320385377387457e-06,,model_feature_importance,190
+Combined,CatBoost,chemical__xenonpy_maximum__max:vdw_radius_mm3,Maximum constituent-element: van der Waals radius (MM3),1.6324028318656175e-05,1.6324028318656157e-07,,model_feature_importance,191
+Combined,CatBoost,chemical__xenonpy_sum__sum:dipole_polarizability,Stoichiometric weighted sum: dipole polarizability,0.0,0.0,,model_feature_importance,192
+Combined,CatBoost,chemical__xenonpy_maximum__max:atomic_radius,Maximum constituent-element: atomic radius,0.0,0.0,,model_feature_importance,193
+Combined,CatBoost,chemical__xenonpy_maximum__max:atomic_radius_rahm,Maximum constituent-element: atomic radius (Rahm),0.0,0.0,,model_feature_importance,194
+Combined,CatBoost,chemical__xenonpy_variance__var:num_s_valence,Composition-weighted variance: number of s valence electrons,0.0,0.0,,model_feature_importance,195
+Combined,CatBoost,chemical__xenonpy_average__ave:covalent_radius_pyykko,Composition-weighted mean: single-bond covalent radius (Pyykkö),0.0,0.0,,model_feature_importance,196
+Combined,CatBoost,chemical__comp_Eu,Stoichiometric coefficient of Eu (O = 3),0.0,0.0,,model_feature_importance,197
+Combined,CatBoost,chemical__xenonpy_minimum__min:density,Minimum constituent-element: density at 295 K,0.0,0.0,,model_feature_importance,198
+Combined,CatBoost,chemical__xenonpy_minimum__min:electron_affinity,Minimum constituent-element: electron affinity,0.0,0.0,,model_feature_importance,199
+Combined,CatBoost,chemical__xenonpy_maximum__max:specific_heat,Maximum constituent-element: specific heat at 20 °C,0.0,0.0,,model_feature_importance,200
+Combined,CatBoost,chemical__xenonpy_maximum__max:density,Maximum constituent-element: density at 295 K,0.0,0.0,,model_feature_importance,201
+Combined,CatBoost,chemical__xenonpy_minimum__min:num_valance,Minimum constituent-element: number of valence electrons,0.0,0.0,,model_feature_importance,202

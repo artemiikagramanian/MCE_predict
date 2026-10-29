@@ -1,0 +1,2 @@
+﻿Worst_R2_group,Worst_R2_size_min_nm,Worst_R2_size_max_nm,Worst_R2_N,Worst_R2,Worst_group_MAE_J_kgK,Worst_group_RMSE_J_kgK,Worst_group_bias_J_kgK,Worst_group_target_std_J_kgK,Worst_group_RMSE_to_target_std,Best_R2_group,Best_R2,Largest_MAE_group,Largest_MAE_J_kgK,Pearson_median_size_vs_R2,Pearson_median_size_vs_MAE
+S2,27.36,39.0,59,0.4392986071274333,0.942353671965967,1.2471308189720096,-0.0698937792221539,1.679802422213361,0.74242708694797,S1,0.705404424095111,S2,0.942353671965967,-0.2701185810275899,0.4559895759135882
