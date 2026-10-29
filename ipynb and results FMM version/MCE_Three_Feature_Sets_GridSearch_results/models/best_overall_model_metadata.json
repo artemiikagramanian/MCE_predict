@@ -1,9 +1,9 @@
 {
   "feature_set": "Stoichiometry",
   "model": "CatBoost",
-  "outer_oof_r2": 0.5759944510923393,
-  "outer_oof_mae": 0.8179773800141462,
-  "train_test_r2_gap": 0.27251034862414103,
+  "outer_oof_r2": 0.6260918602986597,
+  "outer_oof_mae": 0.7872273293732506,
+  "train_test_r2_gap": 0.2700463582971694,
   "overfitting_flag": true,
   "selection_criterion": "max_outer_oof_r2_then_min_oof_mae",
   "inputs_standardized": true,
@@ -15,6 +15,7 @@
   "model_features": [
     "magnetic_field_T",
     "crystallite_size_nm",
+    "process_T_final_C",
     "comp_Ag",
     "comp_Al",
     "comp_Ba",
@@ -27,6 +28,7 @@
     "comp_Fe",
     "comp_Gd",
     "comp_Ho",
+    "comp_In",
     "comp_K",
     "comp_La",
     "comp_Mn",
@@ -40,17 +42,22 @@
     "comp_Sr",
     "comp_Te",
     "comp_Ti",
-    "comp_V"
+    "comp_V",
+    "process_route_sol_gel",
+    "process_route_solid_state",
+    "process_route_combustion",
+    "process_route_unknown",
+    "process_route_other_route"
   ],
-  "number_of_selected_chemical_features": 15,
+  "number_of_selected_chemical_features": 30,
   "best_parameters": {
-    "regressor__model__bagging_temperature": 1.0,
-    "regressor__model__depth": 4,
-    "regressor__model__iterations": 550,
-    "regressor__model__l2_leaf_reg": 15.0,
-    "regressor__model__learning_rate": 0.04,
-    "regressor__model__random_strength": 1.5,
-    "regressor__preprocessor__chemical__selector__max_features": 15
+    "regressor__model__bagging_temperature": 1.5,
+    "regressor__model__depth": 5,
+    "regressor__model__iterations": 500,
+    "regressor__model__l2_leaf_reg": 20.0,
+    "regressor__model__learning_rate": 0.05,
+    "regressor__model__random_strength": 1.0,
+    "regressor__preprocessor__chemical__selector__max_features": 30
   },
   "model_path": "/Users/artemykagramanian/Desktop/ампермагнит/MCE + ML/ipynb and results FMM version/MCE_Three_Feature_Sets_GridSearch_results/models/best_overall_model.joblib"
 }
